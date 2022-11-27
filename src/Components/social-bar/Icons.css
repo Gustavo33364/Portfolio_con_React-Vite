@@ -1,0 +1,67 @@
+.icons{
+    position: relative;
+    top: 30%;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    
+
+}
+
+.Icon{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.Facebook{
+    background: #2e406e;
+    border-radius: 1rem 0 0 0 ;
+}
+
+.Twitter{
+    background: #339dc5;
+    color: #e7bba2;
+}
+
+.Github{
+    background: rgb(77, 74, 74);
+}
+
+.Linkedin{
+    background: #3f60a5;
+    border-radius: 0 1rem 0 0;
+}
+
+.Icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0 .5rem rgba(0, 0, 0.42);
+}
+
+@media  screen and (max-width:960px){
+
+    .icons{
+        position: relative;
+        top: 25%;
+        font-size: 1.1rem;
+        padding-top: 5.5rem;
+    }
+
+    .Icon{
+        color: white;
+        padding: 1rem;
+        transition: all 0.5s;
+        padding-left: 1vh;
+    }
+
+    .Icon:hover{
+        padding-right: 3rem;
+        border-radius: 1rem 0 0 1rem;
+        box-shadow: 0 0 0 .2rem rgba(0, 0, 0.42);
+    }
+
+}
