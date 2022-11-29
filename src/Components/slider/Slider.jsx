@@ -1,8 +1,8 @@
 import React from 'react'
 import './Slider.css'
 import MundosE from '../../Media/MundosE.png'
-import porfolio from '../../Media/porfolio.png'
-import Cliente from '../../Media/Cliente.jpg'
+import Porfoliog from '../../Media/Porfoliog.png'
+import movies from '../../Media/movies.png'
 
 
 
@@ -36,17 +36,17 @@ const Slider = () => {
       </div>
     </div>
     <div className="carousel-item">
-      <img src={porfolio} className="d-block w-100" alt="..."/>
+      <img src={Porfoliog} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Porfolio personal</h5>
+        <p>Proyecto realizado en react + Vite.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={Cliente} className="d-block w-100" alt="..."/>
+      <img src={movies} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Desafio Movie</h5>
+        <p>Simula buscador de peliculas hecho con api movieid</p>
       </div>
     </div>
   </div>
