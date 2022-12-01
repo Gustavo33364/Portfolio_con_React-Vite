@@ -7,7 +7,7 @@
     z-index: 1;
     transition: 0.3s ease-in;
     overflow: hidden;
-    background-color: #6b8578;
+    background-color: #80bd9e;
     
 }
 
@@ -39,10 +39,6 @@ ul{
 
 .nav-menu a{
     color: #ffffff;
-    
-
-    
-
 }
 
 .navbar img{
@@ -57,8 +53,6 @@ ul{
 .nav-item{
     padding: 1rem;
     font-weight: 500;
-    
-    
 }
 
 .nav-item a:hover{

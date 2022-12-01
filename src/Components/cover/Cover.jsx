@@ -16,7 +16,7 @@ const Cover = () => {
             Gustavo.Dev
         </h1>
         <p>
-            FullStack Developer | Entrepeneur
+            FullStack Developer
         </p>
       </div>
 

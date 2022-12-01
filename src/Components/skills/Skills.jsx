@@ -24,35 +24,35 @@ const Skills = () => {
             <h2><span> Knowledge |</span> Conocimientos</h2>
 
                 <div className="knowledge">
-                    <div><img src={html} alt="" />
+                    <div><img src={html} alt="Img-default" />
                     <h3>HTML</h3></div>
                     
 
-                    <div><img src={css} alt="" />
+                    <div><img src={css} alt="Img-default" />
                     <h3>css</h3></div>
                    
 
-                    <div><img src={sass} alt="" />
+                    <div><img src={sass} alt="Img-default" />
                     <h3>sass</h3></div>
                     
 
-                    <div><img src={javascript} alt="" />
+                    <div><img src={javascript} alt="Img-default" />
                     <h3>javascript</h3></div>
                     
 
-                    <div><img src={react} alt="" />
+                    <div><img src={react} alt="Img-default" />
                     <h3>react</h3></div>
                     
 
-                    <div><img src={Laravel} alt="" />
+                    <div><img src={Laravel} alt="Img-default" />
                     <h3>laravel</h3></div>
                     
 
-                    <div><img src={php} alt="" />
+                    <div><img src={php} alt="Img-default" />
                     <h3>php</h3></div>
                     
 
-                    <div><img src={mysql} alt="" /> 
+                    <div><img src={mysql} alt="Img-default" /> 
                     <h3>mysql</h3></div>
                     
                 </div>
@@ -64,23 +64,23 @@ const Skills = () => {
 
                 <div className="tools">
 
-                    <div><img src={git} alt="" /> 
+                    <div><img src={git} alt="Img-default" /> 
                     <h3>Git</h3></div>
                     
 
-                    <div><img src={github} alt="" />
+                    <div><img src={github} alt="Img-default" />
                     <h3>gitHub</h3></div>
                     
 
-                    <div><img src={npm} alt="" />
+                    <div><img src={npm} alt="Img-default" />
                     <h3>npm</h3></div>
                     
 
-                    <div><img src={visual} alt="" />
+                    <div><img src={visual} alt="Img-default" />
                     <h3>Visual Studio Code</h3></div>
                     
 
-                    <div><img src={nodejs} alt="" />
+                    <div><img src={nodejs} alt="Img-default" />
                     <h3>nodejs</h3></div>
                     
 

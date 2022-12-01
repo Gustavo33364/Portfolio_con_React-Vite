@@ -3,7 +3,7 @@
     margin: 0;
     height: 550px;
     width: 100%;
-    background-color:#d9eee9;
+    background-color:#efefef;
     position: absolute;
 }
 
@@ -48,7 +48,7 @@
 
 .footer{
     text-align: center;
-    background-color:#6b8578 ;
+    background-color:#80bd9e;
     height: 50px;
     width: 100%;
     display: grid;

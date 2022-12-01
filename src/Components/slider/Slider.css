@@ -1,8 +1,9 @@
 .carousel-container{
     display: flex;
     align-items: center;
-    background-color: #d9eee9;
+    background-color: #dcc7aa;
     padding: 35px 0 35px 0;
+    height: 900px;
 }
 
 .car-title{
@@ -14,7 +15,9 @@
 }
 
 .car-title > h2{
-    font-size: 4vh;
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+    color: white;
 }
 
 .carousel-item {

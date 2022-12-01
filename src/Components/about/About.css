@@ -1,8 +1,7 @@
 .about-container{
     display: flex;
-    background-color: #d9eee9;
-    color: black;
-    height: 70vh;
+    background-color: #ab9353;
+    height: 1000px;
     padding: 100px 0 100px 0;
 }
 
@@ -16,11 +15,15 @@
 
 .about-desc > h3{
     margin-bottom: 30px;
-    font-size: 25;
+    font-size: 5em;
+    color: white;
+    font-family: 'Merriweather', serif;
 }
 
 .about-desc > p{
-    line-height: 1.5;
+    line-height: 2em;
+    color: white;
+    font-family: 'Merriweather', serif;
 }
 
 .about-img{
