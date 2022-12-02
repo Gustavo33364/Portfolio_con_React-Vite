@@ -20,6 +20,20 @@
     color: white;
 }
 
+.github{
+    text-align: center;
+    padding: 1rem;
+    transition: all 0.5s;
+    padding-left: 1vh;
+}
+
+.github:hover{
+    padding-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0.42);
+    background-color: #80bd9e;
+}
+
 .carousel-item {
     height: 10%;
     width: 10%;
@@ -44,7 +58,7 @@
 
     .carousel-container{
         display: grid;
-        background-color: #d9eee9;
+        background-color: #dcc7aa;
         height: 400px;
     }
     
@@ -61,6 +75,18 @@
         font-size: 20px;
         padding-left: 31px;
     }
+
+    .github{
+        background-color: #80bd9e;
+        height: 20px;
+        margin-left: 40px;
+        margin-bottom: 0;
+    }
+    
+    .github a{
+        height: 20px ;
+    }
+    
 
     .carousel-item > img {
         transition: all 0.2s ease-in-out;

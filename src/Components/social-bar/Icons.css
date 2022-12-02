@@ -47,8 +47,9 @@
     .icons{
         position: relative;
         top: 25%;
-        font-size: 1.1rem;
-        padding-top: 5.5rem;
+        font-size: 1.5rem;
+        padding-top: 5rem;
+        margin-left: 10rem;
     }
 
     .Icon{

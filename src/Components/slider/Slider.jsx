@@ -3,6 +3,7 @@ import './Slider.css'
 import MundosE from '../../Media/MundosE.png'
 import Porfoliog from '../../Media/Porfoliog.png'
 import movies from '../../Media/movies.png'
+import { FaGithub } from 'react-icons/fa'
 
 
 
@@ -19,15 +20,18 @@ const Slider = () => {
   <div className="carousel-container" id='Proyectos'>
     <div className="car-title">
       <h2>Proyectos <br/> realizados</h2>
+      <div className="github">
+        <a href="https://github.com/Gustavo33364" target='_blank'><FaGithub style={{ color: 'black' }}/></a>
+      </div>
     </div>
 
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
-  <div className="carousel-indicators">
+    <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
+    </div>
+    <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={MundosE} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
@@ -60,6 +64,7 @@ const Slider = () => {
   </button>
 </div>
 </div>
+
   )
 }
 
