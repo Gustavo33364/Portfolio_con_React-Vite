@@ -21,7 +21,7 @@ const Slider = () => {
     <div className="car-title">
       <h2>Proyectos <br/> realizados</h2>
       <div className="github">
-        <a href="https://github.com/Gustavo33364" target='_blank'><FaGithub style={{ color: 'black' }}/></a>
+        <a href="https://github.com/Gustavo33364" target='_blank'><FaGithub style={{ color: '#fff' }}/></a>
       </div>
     </div>
 

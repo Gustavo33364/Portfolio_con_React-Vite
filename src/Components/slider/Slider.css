@@ -78,13 +78,17 @@
 
     .github{
         background-color: #80bd9e;
-        height: 20px;
+        height: 5px;
         margin-left: 40px;
         margin-bottom: 0;
+        border-bottom: 10%;
     }
-    
-    .github a{
-        height: 20px ;
+
+    .github:hover{
+        padding-right: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 0 .2rem rgba(0, 0, 0.42);
+        background-color: #80bd9e;
     }
     
 
